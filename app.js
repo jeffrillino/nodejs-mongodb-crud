@@ -31,7 +31,7 @@ app.configure('development', function(){
 
 var employeeProvider= new EmployeeProvider();
 
-//Routes
+//Routes for App
 
 //index
 app.get('/', function(req, res){
